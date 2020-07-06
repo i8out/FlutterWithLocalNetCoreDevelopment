@@ -17,7 +17,7 @@ This is a minimalist Flutter with a local Net Core Development Project. The aim 
 ![](https://github.com/i8out/FlutterWithLocalNetCoreDevelopment/blob/master/Images/applicationhostconfig2.JPG)
 11. Note down the port number, we will need this in our Flutter project.
 
-## FlutterEmployeeApp
+## Flutter EmployeeApp
 1.	Using Android Studio, select File, New Flutter Project and select “Flutter Application”. Fill in the Project name and Project location. After clicking Next, press Finish.
 2.	Open the pubspec.yaml  file and add after Cupertino_icons the following: http, flutter_bloc, and equatable.
 ![](https://github.com/i8out/FlutterWithLocalNetCoreDevelopment/blob/master/Images/pubspecyaml.JPG)
