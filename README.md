@@ -1,4 +1,6 @@
 # FlutterWithLocalNetCoreDevelopment
+This is a minimalist Flutter with Local Net Core Development Project. The aim is to show how easy it is to develop Flutter apps based on Net Core. This sample will only deal with the Android Emulator.
+![](https://github.com/i8out/FlutterWithLocalNetCoreDevelopment/blob/master/Images/AndroidEmployeeList.JPG)
 
 ## NetCore Web Employee App
 1.	Using Visual Studio 2019, create a new project ASP.NET Core Web Application (Net Core 3.1)
@@ -21,11 +23,12 @@
 3.	Since we edited the pubspec.yaml, we need to run “flutter pub get” in the Terminal.
 4.	Add three folders under lib namely: bloc, models, repository, and widgets.
 5.	Under models folder, add “employee.dart”
-6.	Under repository, add “api.dart” and “employee_api.dart”. In the “employee_api.dart”, we need to replace the sample code port number with the actual port number we noted before found in the applicationhost.config file.
-7.	Under bloc folder, add the following dart files: “bloc.dart”, “myapp_bloc.dart”, “myapp_event.dart”, and “myapp_state.dart”
-8.	Under the widgets folder, add the “employee_avatar.dart”
-9.	In Visual Studio, press F5 to run the web project.
-10.	Now replace the main.dart and run this Flutter app in the Android emulator.
-11. We can now debug both the Net Core Project and the Flutter Project during local development.
+6.	Under repository, add “api.dart” and “employee_api.dart”. In the “employee_api.dart”. 
+7.  In the "employee_api.dart", we only need to replace the sample code port number with the actual port number we noted before found in the applicationhost.config file. Do not replace "10.0.2.2"
+8.	Under bloc folder, add the following dart files: “bloc.dart”, “myapp_bloc.dart”, “myapp_event.dart”, and “myapp_state.dart”
+9.	Under the widgets folder, add the “employee_avatar.dart”
+10.	In Visual Studio, press F5 to run the web project.
+11.	Now replace the main.dart and run this Flutter app in the Android emulator.
+12. We can now debug both the Net Core Project and the Flutter Project during local development.
 
 
