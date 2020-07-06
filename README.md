@@ -26,5 +26,6 @@
 8.	Under the widgets folder, add the “employee_avatar.dart”
 9.	In Visual Studio, press F5 to run the web project.
 10.	Now replace the main.dart and run this Flutter app in the Android emulator.
+11. We can now debug both the Net Core Project and the Flutter Project during local development.
 
 
