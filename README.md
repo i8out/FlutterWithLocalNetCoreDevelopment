@@ -1,5 +1,6 @@
 # FlutterWithLocalNetCoreDevelopment
-This is a minimalist Flutter with Local Net Core Development Project. The aim is to show how easy it is to develop Flutter apps based on Net Core. This sample will only deal with the Android Emulator.
+This is a minimalist Flutter with a local Net Core Development Project. The aim is to show how easy it is to develop Flutter apps based on Net Core. This sample will only deal with the Android Emulator. For convenience, I encourage to copy the files provided in this repository.
+
 ![](https://github.com/i8out/FlutterWithLocalNetCoreDevelopment/blob/master/Images/AndroidEmployeeList.JPG)
 
 ## NetCore Web Employee App
@@ -16,7 +17,7 @@ This is a minimalist Flutter with Local Net Core Development Project. The aim is
 ![](https://github.com/i8out/FlutterWithLocalNetCoreDevelopment/blob/master/Images/applicationhostconfig2.JPG)
 11. Note down the port number, we will need this in our Flutter project.
 
-## FlutterEmployeeApp
+## Flutter EmployeeApp
 1.	Using Android Studio, select File, New Flutter Project and select “Flutter Application”. Fill in the Project name and Project location. After clicking Next, press Finish.
 2.	Open the pubspec.yaml  file and add after Cupertino_icons the following: http, flutter_bloc, and equatable.
 ![](https://github.com/i8out/FlutterWithLocalNetCoreDevelopment/blob/master/Images/pubspecyaml.JPG)
