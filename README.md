@@ -11,14 +11,14 @@
 8.	Press F5 and check that the EmployeesApp opens in default browser.
 9.	Close the browser and stop Debug mode.
 10.	We will need to edit the applicationhost.config file found in the path “.vs/EmployeeApp/config”. Using a text editor, add binding protocol for numerical id of localhost.
-![](Images/applicationhostconfig1.jpg)
+![](/Images/applicationhostconfig1.jpg)
 11. Note down the port number, we will need this in our Flutter project.
-![](Images/applicationhostconfig2.jpg)
+![](/Images/applicationhostconfig2.jpg)
 
 ## FlutterEmployeeApp
 1.	Using Android Studio, select File, New Flutter Project and select “Flutter Application”. Fill in the Project name and Project location. After clicking Next, press Finish.
 2.	Open the pubspec.yaml  file and add after Cupertino_icons the following: http, flutter_bloc, and equatable.
-![](Images/pubspecyaml.jpg)
+![](/Images/pubspecyaml.jpg)
 3.	Since we edited the pubspec.yaml, we need to run “flutter pub get” in the Terminal.
 4.	Add three folders under lib namely: bloc, models, repository, and widgets.
 5.	Under models folder, add “employee.dart”
