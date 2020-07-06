@@ -1,6 +1,6 @@
 # FlutterWithLocalNetCoreDevelopment
 
-NetCore Web App
+## NetCore Web App
 1.	Using Visual Studio 2019, create a new project ASP.NET Core Web Application
 2.	Name the project, “EmployeesApp”. Click “Place solution and project in the same directory”, then Create.
 3.	I selected “Web Application (Model-View-Controller)” for my project. Unclick under Advanced “Configure for HTTPS” for this case, then Create.
@@ -15,7 +15,7 @@ NetCore Web App
 11. Note down the port number, we will need this in our Flutter project.
 ![](Images/applicationhostconfig2.jpg)
 
-FlutterEmployeeApp
+## FlutterEmployeeApp
 1.	Using Android Studio, select File, New Flutter Project and select “Flutter Application”. Fill in the Project name and Project location. After clicking Next, press Finish.
 2.	Open the pubspec.yaml  file and add after Cupertino_icons the following: http, flutter_bloc, and equatable.
 ![](Images/pubspecyaml.jpg)
