@@ -1,5 +1,5 @@
 # FlutterWithLocalNetCoreDevelopment
-This is a minimalist Flutter with Local Net Core Development Project. The aim is to show how easy it is to develop Flutter apps based on Net Core. This sample will only deal with the Android Emulator.
+This is a minimalist Flutter with a local Net Core Development Project. The aim is to show how easy it is to develop Flutter apps based on Net Core. This sample will only deal with the Android Emulator.
 
 ![](https://github.com/i8out/FlutterWithLocalNetCoreDevelopment/blob/master/Images/AndroidEmployeeList.JPG)
 
