@@ -1,6 +1,6 @@
 # FlutterWithLocalNetCoreDevelopment
 
-## NetCore Web App
+## NetCore Web Employee App
 1.	Using Visual Studio 2019, create a new project ASP.NET Core Web Application
 2.	Name the project, “EmployeesApp”. Click “Place solution and project in the same directory”, then Create.
 3.	I selected “Web Application (Model-View-Controller)” for my project. Unclick under Advanced “Configure for HTTPS” for this case, then Create.
