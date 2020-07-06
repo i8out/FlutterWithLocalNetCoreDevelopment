@@ -10,10 +10,9 @@
 7.	Build the solution.
 8.	Press F5 and check that the EmployeesApp opens in default browser.
 9.	Close the browser and stop Debug mode.
-10.	We will need to edit the applicationhost.config file found in the path “.vs/EmployeeApp/config”. Using a text editor, add binding protocol for numerical id of localhost.
-![](https://github.com/i8out/FlutterWithLocalNetCoreDevelopment/blob/master/Images/applicationhostconfig1.JPG)
-11. Note down the port number, we will need this in our Flutter project.
+10.	We will need to edit the applicationhost.config file found in the path “.vs/EmployeeApp/config”. Using a text editor, add binding protocol with the numerical id of localhost.
 ![](https://github.com/i8out/FlutterWithLocalNetCoreDevelopment/blob/master/Images/applicationhostconfig2.JPG)
+11. Note down the port number, we will need this in our Flutter project.
 
 ## FlutterEmployeeApp
 1.	Using Android Studio, select File, New Flutter Project and select “Flutter Application”. Fill in the Project name and Project location. After clicking Next, press Finish.
